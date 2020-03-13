@@ -91,7 +91,7 @@ class Dog
     if dog
       new_dog = self.new_from_db(dog)
     else 
-      new_dog = self.create()
+      new_dog = self.create({:name = })
   end
     
   
